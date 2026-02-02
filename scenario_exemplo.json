@@ -1,0 +1,745 @@
+{
+  "meta": {
+    "nome_cenario": "Validação Excel vs API",
+    "moeda": "BRL",
+    "unidade_producao": "caixa_40_8kg"
+  },
+  "talhoes": [
+    {
+      "fazenda": "Fazenda Rey e Macuco",
+      "talhao": 1,
+      "variedade": "Precoce",
+      "colheita": "Precoce",
+      "porta_enxerto": "sw",
+      "area_ha": 100.0,
+      "rua_m": 7.0,
+      "plantas_m": 2.6,
+      "prod_cx_planta_base": [
+        0.7,
+        1.5,
+        2.0,
+        2.3,
+        2.2,
+        3.2,
+        1.8,
+        3.5,
+        2.2,
+        3.0
+      ],
+      "prod_deflatores": [
+        1.1,
+        0.7000000000000001,
+        1.0,
+        0.7500000000000001,
+        0.9,
+        0.8,
+        0.8
+      ]
+    },
+    {
+      "fazenda": "Fazenda Rey e Macuco",
+      "talhao": 2,
+      "variedade": "Pera rio",
+      "colheita": "Média",
+      "porta_enxerto": "sw",
+      "area_ha": 600.0,
+      "rua_m": 7.0,
+      "plantas_m": 2.6,
+      "prod_cx_planta_base": [
+        0.5,
+        1.2,
+        2.0,
+        2.0,
+        2.3,
+        2.8,
+        2.0,
+        2.5,
+        2.5,
+        2.0
+      ],
+      "prod_deflatores": [
+        1.2,
+        0.7000000000000001,
+        1.2,
+        0.7500000000000001,
+        0.9,
+        0.9,
+        0.8
+      ]
+    },
+    {
+      "fazenda": "Fazenda Rey e Macuco",
+      "talhao": 3,
+      "variedade": "Tardias",
+      "colheita": "Tardia",
+      "porta_enxerto": "sw",
+      "area_ha": 300.0,
+      "rua_m": 7.0,
+      "plantas_m": 2.6,
+      "prod_cx_planta_base": [
+        0.5,
+        1.5,
+        2.0,
+        2.0,
+        2.2,
+        3.0,
+        1.5,
+        3.0,
+        2.0,
+        2.8
+      ],
+      "prod_deflatores": [
+        1.2,
+        0.7000000000000001,
+        1.2,
+        0.7500000000000001,
+        0.9,
+        0.9,
+        0.8
+      ]
+    }
+  ],
+  "precos": {
+    "preco_base": 58.195606800766285,
+    "fatores": [
+      1.21,
+      0.86,
+      1.2,
+      1.0,
+      1.15,
+      0.8,
+      1.08,
+      0.9,
+      1.2,
+      0.9,
+      1.1,
+      1.0,
+      0.92,
+      1.04,
+      1.04,
+      1.04
+    ]
+  },
+  "custos": {
+    "implantacao_itens": [
+      {
+        "nome": "Corretivo Calcáreo",
+        "unidade": "ton/há",
+        "valor_unitario": 250.0,
+        "qtd_ano": [
+          4.5,
+          0.0,
+          1.5
+        ]
+      },
+      {
+        "nome": "Corretivo gesso",
+        "unidade": "ton/há",
+        "valor_unitario": 240.0,
+        "qtd_ano": [
+          2.5,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "nome": "Fosfatagem no plantio",
+        "unidade": "ton/há",
+        "valor_unitario": 1800.0,
+        "qtd_ano": [
+          1.5,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "nome": "Adubo de solo ",
+        "unidade": "Kg/há",
+        "valor_unitario": 2.5,
+        "qtd_ano": [
+          400.0,
+          700.0,
+          900.0
+        ]
+      },
+      {
+        "nome": "Esterco de Galinha",
+        "unidade": "ton/há",
+        "valor_unitario": 250.0,
+        "qtd_ano": [
+          0.0,
+          0.0,
+          4.0
+        ]
+      },
+      {
+        "nome": "Adubo foliar e Elicitores",
+        "unidade": "litros/há",
+        "valor_unitario": 15.0,
+        "qtd_ano": [
+          25.0,
+          35.0,
+          40.0
+        ]
+      },
+      {
+        "nome": "Espalhante/óleo mineral- surfactante",
+        "unidade": "litros/há",
+        "valor_unitario": 80.0,
+        "qtd_ano": [
+          3.0,
+          4.0,
+          8.0
+        ]
+      },
+      {
+        "nome": "Acaricida( leprose/desfolhadores/ferrugem)",
+        "unidade": "litros/há",
+        "valor_unitario": 200.0,
+        "qtd_ano": [
+          2.0,
+          3.0,
+          5.0
+        ]
+      },
+      {
+        "nome": "Fungicida",
+        "unidade": "litros/há",
+        "valor_unitario": 120.0,
+        "qtd_ano": [
+          2.0,
+          3.0,
+          4.0
+        ]
+      },
+      {
+        "nome": "Inseticida/formicidas",
+        "unidade": "litros/há",
+        "valor_unitario": 80.0,
+        "qtd_ano": [
+          10.0,
+          25.0,
+          35.0
+        ]
+      },
+      {
+        "nome": " Herbicida Pós e pré emergentes",
+        "unidade": "litros/há",
+        "valor_unitario": 250.0,
+        "qtd_ano": [
+          4.0,
+          3.0,
+          3.0
+        ]
+      },
+      {
+        "nome": "Mudas de Laranja (555 plantio)",
+        "unidade": "Unidade/há",
+        "valor_unitario": 20.0,
+        "qtd_ano": [
+          555.0,
+          3.0,
+          2.55
+        ]
+      },
+      {
+        "nome": "Alinhamento e Plantio (plantador)",
+        "unidade": "=D20",
+        "valor_unitario": 2.5,
+        "qtd_ano": [
+          555.0,
+          3.0,
+          2.55
+        ]
+      },
+      {
+        "nome": "Operações mecanizadas Diesel",
+        "unidade": "litros/há",
+        "valor_unitario": 5.8,
+        "qtd_ano": [
+          650.0,
+          120.0,
+          120.0
+        ]
+      },
+      {
+        "nome": "Irrigação Gotejamento (montado/manutenção/conta energia)",
+        "unidade": "há",
+        "valor_unitario": 28000.0,
+        "qtd_ano": [
+          0.8,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "nome": "Aluguel máquinas Retroescavadeira/Pá carregadeira",
+        "unidade": "hectare",
+        "valor_unitario": 350.0,
+        "qtd_ano": [
+          700.0,
+          300.0,
+          200.0
+        ]
+      }
+    ],
+    "opex_categorias": [
+      {
+        "nome": "Nutrição",
+        "base_ano4_por_ha": 2500.0,
+        "multiplicadores": [
+          1.2,
+          1.28,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Foliar Nutricional",
+        "base_ano4_por_ha": 400.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Prolabore",
+        "base_ano4_por_ha": 200.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Corretivos",
+        "base_ano4_por_ha": 240.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Adjuvante",
+        "base_ano4_por_ha": 180.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Materia orgânica",
+        "base_ano4_por_ha": 0.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Fungicidas",
+        "base_ano4_por_ha": 800.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.25,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Inseticidas",
+        "base_ano4_por_ha": 1000.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Acaricidas",
+        "base_ano4_por_ha": 1200.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Herbicidas",
+        "base_ano4_por_ha": 560.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.07,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Combustíveis",
+        "base_ano4_por_ha": 1008.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Energia elétrica",
+        "base_ano4_por_ha": 1500.0,
+        "multiplicadores": [
+          1.05,
+          1.4,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Administração",
+        "base_ano4_por_ha": 680.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Man Benfeitorias",
+        "base_ano4_por_ha": 80.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Man Irrigação",
+        "base_ano4_por_ha": 200.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Máquinas/Imlementos",
+        "base_ano4_por_ha": 2240.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Investimentos",
+        "base_ano4_por_ha": 864.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Sálário",
+        "base_ano4_por_ha": 1200.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      {
+        "nome": "Serviços terceirizados",
+        "base_ano4_por_ha": 300.0,
+        "multiplicadores": [
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.05,
+          1.02,
+          1.03,
+          1.03,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02,
+          1.02
+        ]
+      }
+    ],
+    "colheita_mo_unit": [
+      10.0,
+      10.0,
+      11.0,
+      11.0,
+      11.0,
+      11.0,
+      10.0,
+      12.0,
+      11.0,
+      12.0,
+      11.0,
+      11.0,
+      12.0,
+      12.0,
+      13.0,
+      14.0,
+      15.0
+    ],
+    "colheita_frete_unit": [
+      4.0,
+      4.0,
+      5.0,
+      5.0,
+      5.0,
+      6.0,
+      6.0,
+      6.0,
+      6.5,
+      6.695,
+      6.89585,
+      7.1027255,
+      7.315807265,
+      7.53528148295,
+      7.761339927438501,
+      7.994180125261656,
+      8.234005529019505
+    ]
+  }
+}
